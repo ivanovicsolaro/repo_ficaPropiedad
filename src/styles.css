@@ -1,0 +1,11 @@
+.slider-prop {
+    position: relative;
+    padding-top: 400px;
+    width: 640px;
+}
+
+.slider-prop>img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

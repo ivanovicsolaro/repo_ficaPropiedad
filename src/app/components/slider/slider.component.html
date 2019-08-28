@@ -1,0 +1,11 @@
+<carousel (activeSlideChange)="log($event)" [itemsPerSlide]="itemsPerSlide1" [activeSlide]="activo">
+    <slide *ngFor="let slide of slides; let index=index">
+        <img [src]="slide.image" alt="first slide" style="display: block; width: 100%;">
+    </slide>
+</carousel>
+
+<carousel [itemsPerSlide]="itemsPerSlide2" [showIndicators]="false">
+    <slide *ngFor="let slide of slides; let index=index;" (click)="changeByClick(index)">
+        <img [src]="slide.image" alt="first slide" style="display: block; width: 100%;">
+    </slide>
+</carousel>

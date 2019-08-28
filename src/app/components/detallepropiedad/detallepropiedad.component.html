@@ -1,0 +1,93 @@
+<!-- Page top section -->
+<section class="page-top-section set-bg" [ngStyle]="{'background-image':'url(assets/img/page-top-bg.jpg)' }">
+    <div class="container text-white">
+        <h2>Detalle Propiedad</h2>
+    </div>
+</section>
+<!--  Page top end -->
+
+<!-- Breadcrumb -->
+<div class="site-breadcrumb">
+    <div class="container">
+        <a href="#/propiedades"><i class="fa fa-home"></i>Inicio</a>
+        <span><i class="fa fa-angle-right"></i>Detalle Propiedad</span>
+    </div>
+</div>
+
+<!-- Page -->
+<section class="page-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 single-list-page detalle">
+                <app-slider></app-slider>
+                <div class="single-list-content">
+                    <div class="row">
+                        <div class="col-xl-8 sl-title">
+                            <h2>Casa Las Condes</h2>
+                            <p><i class="fa fa-map-marker"></i>Av.Isidora Goynechea 2387</p>
+                        </div>
+                        <div class="col-xl-4">
+                            <a href="#" class="price-btn">$873.000.000</a>
+                        </div>
+                    </div>
+                    <h3 class="sl-sp-title">Caracteristicas</h3>
+                    <div class="row property-details-list">
+                        <div class="col-md-4 col-sm-6">
+                            <p><i class="fa fa-th-large"></i> 480 m² terreno</p>
+                            <p><i class="fa fa-bed"></i> 5 Dormitorios</p>
+                            <p><i class="fa fa-user"></i> Adrian Carcamo</p>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <p><i class="fa fa-car"></i> 2 Estacionamientos</p>
+                            <p><i class="fa fa-building-o"></i> Villa Familiar</p>
+                            <p><i class="fa fa-clock-o"></i> Hace 4 días</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><i class="fa fa-bath"></i> 4 Baños</p>
+                        </div>
+                    </div>
+                    <h3 class="sl-sp-title">Description</h3>
+                    <div class="description">
+                        <p>
+                            Moderna vivienda ubicada en el corazón del barrio el golf. Cuenta con 5 dormitorios 1 en suite con baño privado completamente equipado, ademas de 4 baños y 2 estacionamientos, para que puedas guardar tus vechiculos con toda tranquilidad.
+                        </p>
+                    </div>
+
+
+                    <h3 class="sl-sp-title bd-no">Video</h3>
+                    <div class="perview-video">
+                        <img src="assets/img/video.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=v13nSVp6m5I" class="video-link"><img src="assets/img/video-btn.png" alt=""></a>
+                    </div>
+                    <h3 class="sl-sp-title bd-no">Location</h3>
+                    <div class="pos-map" id="map-canvas"></div>
+                </div>
+            </div>
+            <!-- sidebar -->
+            <div class="col-lg-4 col-md-7 sidebar">
+                <div class="author-card">
+                    <div class="author-img set-bg" data-setbg="img/author.jpg"></div>
+                    <div class="author-info">
+                        <h5>Adrian Carcamo</h5>
+                        <p>Corredor de propiedades</p>
+                    </div>
+                    <div class="author-contact">
+                        <p><i class="fa fa-phone"></i>(+56) 000 000 0000</p>
+                        <p><i class="fa fa-envelope"></i>contacto@clasipro.cl</p>
+                    </div>
+                </div>
+                <div class="contact-form-card">
+                    <h5>¿Tienes alguna pregunta?</h5>
+                    <form>
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Email">
+                        <textarea placeholder="Mensaje"></textarea>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Page end -->
